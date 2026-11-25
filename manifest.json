@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "ПензГТУ · Новый интерфейс",
+  "version": "1.1.0",
+  "description": "Новый интерфейс поверх настоящего портала edu.penzgtu.ru: удобная мобильная вёрстка и загрузка нескольких файлов сразу. Вход, курсы и файлы остаются на портале ПензГТУ.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://edu.penzgtu.ru/*"
+      ],
+      "css": [
+        "skin.css"
+      ],
+      "js": [
+        "skin.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "fonts/*.woff2"
+      ],
+      "matches": [
+        "https://edu.penzgtu.ru/*"
+      ]
+    }
+  ],
+  "icons": {
+    "128": "icon128.png"
+  }
+}

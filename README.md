@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/35409039/README.md)
 # ПензГТУ · новый интерфейс
 
 Это расширение для Chrome/Edge. Оно накладывает новый интерфейс на настоящий портал `edu.penzgtu.ru`, но не заменяет его и не меняет сервер.
